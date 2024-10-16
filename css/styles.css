@@ -43,6 +43,7 @@ button {
 
 .section-img {
   display: block;
+  width: 100%;
 }
 
 .section {
@@ -212,7 +213,12 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+
+  .nav-link {
+    font-weight: 500;
+  }
 }
+
 
 .mobile-menu {
   position: fixed;
@@ -256,9 +262,10 @@ button {
   border-radius: 100%;
   align-items: center;
   justify-content: center;
-  border-color: #e7e9fc;
-  stroke-width: 1px;
-  stroke: #2e2f42;
+  border: 2px solid white;
+  
+
+
 }
 
 .mobile-close:hover,
@@ -913,6 +920,7 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .E-mail {
@@ -921,6 +929,7 @@ button {
 
 .footer-subscribe {
   display: flex;
+  flex-direction: column;
 }
 
 .social-form-email {
@@ -1006,6 +1015,7 @@ button {
   .social-form-email {
     width: 288px;
   }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
@@ -1039,6 +1049,13 @@ button {
 
   .social-form-email {
     width: 264px;
+  }
+  .subscribe-clause {
+    text-align: initial;
+  }
+
+  .page-footer {
+    padding: 80px;
   }
 }
 
